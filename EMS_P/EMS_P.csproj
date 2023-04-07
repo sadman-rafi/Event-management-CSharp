@@ -1,0 +1,645 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C91F466F-85CD-4B4D-9B8B-36B6EE40A2B4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EMS_P</RootNamespace>
+    <AssemblyName>EMS_P</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CEO\%28CEO%29_Block Users.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CEO\%28CEO%29_Block Users.Designer.cs">
+      <DependentUpon>%28CEO%29_Block Users.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CEO\%28CEO%29_Customer info.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CEO\%28CEO%29_Customer info.Designer.cs">
+      <DependentUpon>%28CEO%29_Customer info.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home Page\AboutUS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home Page\AboutUS.Designer.cs">
+      <DependentUpon>AboutUS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CEO\Add Employee%28ceo%29.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CEO\Add Employee%28ceo%29.Designer.cs">
+      <DependentUpon>Add Employee%28ceo%29.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home Page\Announcement_CEO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home Page\Announcement_CEO.Designer.cs">
+      <DependentUpon>Announcement_CEO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home Page\Apply_Job_Execuitive.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home Page\Apply_Job_Execuitive.Designer.cs">
+      <DependentUpon>Apply_Job_Execuitive.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home Page\Apply_Job_Staff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home Page\Apply_Job_Staff.Designer.cs">
+      <DependentUpon>Apply_Job_Staff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home Page\Apply_Job_Volunteer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home Page\Apply_Job_Volunteer.Designer.cs">
+      <DependentUpon>Apply_Job_Volunteer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer\Birthday.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer\Birthday.Designer.cs">
+      <DependentUpon>Birthday.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer\Bookings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer\Bookings.Designer.cs">
+      <DependentUpon>Bookings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CEO\CEO_Check_Feedback.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CEO\CEO_Check_Feedback.Designer.cs">
+      <DependentUpon>CEO_Check_Feedback.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CEO\CEO_Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CEO\CEO_Home.Designer.cs">
+      <DependentUpon>CEO_Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home Page\CEO_LOGIN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home Page\CEO_LOGIN.Designer.cs">
+      <DependentUpon>CEO_LOGIN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Excutive\Check_payment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Excutive\Check_payment.Designer.cs">
+      <DependentUpon>Check_payment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home Page\Contact_Us.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home Page\Contact_Us.Designer.cs">
+      <DependentUpon>Contact_Us.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer\Corporate_Party.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer\Corporate_Party.Designer.cs">
+      <DependentUpon>Corporate_Party.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer\Customer Details.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer\Customer Details.Designer.cs">
+      <DependentUpon>Customer Details.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer\Customer_Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer\Customer_Home.Designer.cs">
+      <DependentUpon>Customer_Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home Page\Customer_Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home Page\Customer_Login.Designer.cs">
+      <DependentUpon>Customer_Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home Page\Execuitive Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home Page\Execuitive Login.Designer.cs">
+      <DependentUpon>Execuitive Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Excutive\Execuitive.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Excutive\Execuitive.Designer.cs">
+      <DependentUpon>Execuitive.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CEO\ExecuitiveAddEmpCEO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CEO\ExecuitiveAddEmpCEO.Designer.cs">
+      <DependentUpon>ExecuitiveAddEmpCEO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EXI_Record.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EXI_Record.Designer.cs">
+      <DependentUpon>EXI_Record.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FeedBack.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FeedBack.Designer.cs">
+      <DependentUpon>FeedBack.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home Page\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home Page\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer\Home Party.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer\Home Party.Designer.cs">
+      <DependentUpon>Home Party.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home Page\Home_Announcement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home Page\Home_Announcement.Designer.cs">
+      <DependentUpon>Home_Announcement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Excutive\Manage_Slot_Count.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Excutive\Manage_Slot_Count.Designer.cs">
+      <DependentUpon>Manage_Slot_Count.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Excutive\NEW_ADD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Excutive\NEW_ADD.Designer.cs">
+      <DependentUpon>NEW_ADD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer\Offer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer\Offer.Designer.cs">
+      <DependentUpon>Offer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer\Payment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer\Payment.Designer.cs">
+      <DependentUpon>Payment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Staff\Responsibility.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Staff\Responsibility.Designer.cs">
+      <DependentUpon>Responsibility.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Staff\Salary_staff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Staff\Salary_staff.Designer.cs">
+      <DependentUpon>Salary_staff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer\SCV_events.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer\SCV_events.Designer.cs">
+      <DependentUpon>SCV_events.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Search_EXI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Search_EXI.Designer.cs">
+      <DependentUpon>Search_EXI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer\Search_Person.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer\Search_Person.Designer.cs">
+      <DependentUpon>Search_Person.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Excutive\Set Work.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Excutive\Set Work.Designer.cs">
+      <DependentUpon>Set Work.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Staff\ShowInfo_Staff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Staff\ShowInfo_Staff.Designer.cs">
+      <DependentUpon>ShowInfo_Staff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home Page\Sign_Up.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home Page\Sign_Up.Designer.cs">
+      <DependentUpon>Sign_Up.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer\Slots.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer\Slots.Designer.cs">
+      <DependentUpon>Slots.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home Page\Staff-LogIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home Page\Staff-LogIn.Designer.cs">
+      <DependentUpon>Staff-LogIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CEO\StaffAddEmpCEO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CEO\StaffAddEmpCEO.Designer.cs">
+      <DependentUpon>StaffAddEmpCEO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Staff\Staff_Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Staff\Staff_Home.Designer.cs">
+      <DependentUpon>Staff_Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CEO\VolunteerAddempCeo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CEO\VolunteerAddempCeo.Designer.cs">
+      <DependentUpon>VolunteerAddempCeo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Volunteer\Vol_Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Volunteer\Vol_Home.Designer.cs">
+      <DependentUpon>Vol_Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home Page\VOL_login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home Page\VOL_login.Designer.cs">
+      <DependentUpon>VOL_login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer\Wedding Slots.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer\Wedding Slots.Designer.cs">
+      <DependentUpon>Wedding Slots.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer\Wedding.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer\Wedding.Designer.cs">
+      <DependentUpon>Wedding.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="CEO\%28CEO%29_Block Users.resx">
+      <DependentUpon>%28CEO%29_Block Users.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CEO\%28CEO%29_Customer info.resx">
+      <DependentUpon>%28CEO%29_Customer info.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home Page\AboutUS.resx">
+      <DependentUpon>AboutUS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CEO\Add Employee%28ceo%29.resx">
+      <DependentUpon>Add Employee%28ceo%29.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home Page\Announcement_CEO.resx">
+      <DependentUpon>Announcement_CEO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home Page\Apply_Job_Execuitive.resx">
+      <DependentUpon>Apply_Job_Execuitive.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home Page\Apply_Job_Staff.resx">
+      <DependentUpon>Apply_Job_Staff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home Page\Apply_Job_Volunteer.resx">
+      <DependentUpon>Apply_Job_Volunteer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer\Birthday.resx">
+      <DependentUpon>Birthday.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer\Bookings.resx">
+      <DependentUpon>Bookings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CEO\CEO_Check_Feedback.resx">
+      <DependentUpon>CEO_Check_Feedback.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CEO\CEO_Home.resx">
+      <DependentUpon>CEO_Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home Page\CEO_LOGIN.resx">
+      <DependentUpon>CEO_LOGIN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Excutive\Check_payment.resx">
+      <DependentUpon>Check_payment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home Page\Contact_Us.resx">
+      <DependentUpon>Contact_Us.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer\Corporate_Party.resx">
+      <DependentUpon>Corporate_Party.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer\Customer Details.resx">
+      <DependentUpon>Customer Details.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer\Customer_Home.resx">
+      <DependentUpon>Customer_Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home Page\Customer_Login.resx">
+      <DependentUpon>Customer_Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home Page\Execuitive Login.resx">
+      <DependentUpon>Execuitive Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Excutive\Execuitive.resx">
+      <DependentUpon>Execuitive.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CEO\ExecuitiveAddEmpCEO.resx">
+      <DependentUpon>ExecuitiveAddEmpCEO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EXI_Record.resx">
+      <DependentUpon>EXI_Record.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FeedBack.resx">
+      <DependentUpon>FeedBack.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home Page\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer\Home Party.resx">
+      <DependentUpon>Home Party.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home Page\Home_Announcement.resx">
+      <DependentUpon>Home_Announcement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Excutive\Manage_Slot_Count.resx">
+      <DependentUpon>Manage_Slot_Count.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Excutive\NEW_ADD.resx">
+      <DependentUpon>NEW_ADD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer\Offer.resx">
+      <DependentUpon>Offer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer\Payment.resx">
+      <DependentUpon>Payment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Staff\Responsibility.resx">
+      <DependentUpon>Responsibility.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Staff\Salary_staff.resx">
+      <DependentUpon>Salary_staff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer\SCV_events.resx">
+      <DependentUpon>SCV_events.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Search_EXI.resx">
+      <DependentUpon>Search_EXI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer\Search_Person.resx">
+      <DependentUpon>Search_Person.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Excutive\Set Work.resx">
+      <DependentUpon>Set Work.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Staff\ShowInfo_Staff.resx">
+      <DependentUpon>ShowInfo_Staff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home Page\Sign_Up.resx">
+      <DependentUpon>Sign_Up.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer\Slots.resx">
+      <DependentUpon>Slots.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home Page\Staff-LogIn.resx">
+      <DependentUpon>Staff-LogIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CEO\StaffAddEmpCEO.resx">
+      <DependentUpon>StaffAddEmpCEO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Staff\Staff_Home.resx">
+      <DependentUpon>Staff_Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CEO\VolunteerAddempCeo.resx">
+      <DependentUpon>VolunteerAddempCeo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Volunteer\Vol_Home.resx">
+      <DependentUpon>Vol_Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home Page\VOL_login.resx">
+      <DependentUpon>VOL_login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer\Wedding Slots.resx">
+      <DependentUpon>Wedding Slots.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer\Wedding.resx">
+      <DependentUpon>Wedding.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Events Management festival image.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3c086f40ad2cf620c3d540da7766b02b.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-1226478926-170667a.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hand-painted-watercolor-background-with-sky-clouds-shape_24972-1095.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\60327636-pastel-watercolor-background-digital-art-painting-.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a07e8f05a7d516ba7fd90519c5126058.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photo-1617954096030-d8c4c47f2a99.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChicagoFireworks-070420-ColinBoyle-5724.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\79fce468980593.5b71946689a07.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3958_507D7BBF-CD77-1795-DD85-457D088FF32D.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cec82d5465d42ae136e627b67dbeb068.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\35-351793_credit-or-debit-card-mastercard-logo-visa-card_30x30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\35-351793_credit-or-debit-card-mastercard-logo-visa-card_1_85x50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download_85x50.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lights-background_1200x650.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photo-1469371670807-013ccf25f16a.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f9e9a0f68ff7531459d5b1d0be9733be6924121b_1024_1024_1220x700.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-856607846-1024x1024_1255x700.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photo-1505236858219-8359eb29e329_1255x700.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-918958976-612x612_1255x700.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photo-1523050854058-8df90110c9f1_1255x700.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\candle-colorful-cream-happy-birthday-wallpaper-preview_1255x700.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\google-ita-deal-background-forecast-analysis-of-current-situation_1255x700.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-orange-gold-autumn-october-thanksgiving-feedback-background-image_267032_1255x700.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photo-1610374792793-f016b77ca51a.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-modern-double-color-futuristic-neon-background-image_351866_1_1255x700.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-modern-double-color-futuristic-neon-background-image_351866_1_1255x7001.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\v462-n-130-textureidea_1_1255x700.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\125591421-magnifying-glass-on-yellow-background_1255x700.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aed449f3fce390371328c489b93028a6_1255x700.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background-executive-management-sml-min_1255x700.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-1069160140-612x612_1255x700.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\af8d63a477078732b79ff9d9fc60873f_1255x700.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\94-940382_png-50-px-block-user-icon_173x125.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\depositphotos_73441387-stock-photo-black-blank-blackboard-with-hand_1255x700.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images_382x533.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cyan-blue-rays-spiral-sunburst-background-comic-style_1150-39949_1255x700.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-1049658692-612x612_1255x700.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\60327636-pastel-watercolor-background-digital-art-painting-1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\v462-n-130-textureidea_1_1255x7001.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\v462-n-130-textureidea_1_1255x7002.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\v462-n-130-textureidea_1_1255x7003.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\v462-n-130-textureidea_1_1255x7004.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\v462-n-130-textureidea_1_1255x7005.jpg" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

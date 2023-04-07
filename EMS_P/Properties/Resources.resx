@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="photo-1505236858219-8359eb29e329_1255x700" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\photo-1505236858219-8359eb29e329_1255x700.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3958_507D7BBF-CD77-1795-DD85-457D088FF32D" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3958_507D7BBF-CD77-1795-DD85-457D088FF32D.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="photo-1610374792793-f016b77ca51a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\photo-1610374792793-f016b77ca51a.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="v462-n-130-textureidea_1_1255x7004" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\v462-n-130-textureidea_1_1255x7004.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="125591421-magnifying-glass-on-yellow-background_1255x700" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\125591421-magnifying-glass-on-yellow-background_1255x700.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="v462-n-130-textureidea_1_1255x7001" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\v462-n-130-textureidea_1_1255x7001.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="94-940382_png-50-px-block-user-icon_173x125" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\94-940382_png-50-px-block-user-icon_173x125.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="google-ita-deal-background-forecast-analysis-of-current-situation_1255x700" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\google-ita-deal-background-forecast-analysis-of-current-situation_1255x700.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images_382x533" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images_382x533.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="istockphoto-1049658692-612x612_1255x700" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\istockphoto-1049658692-612x612_1255x700.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngtree-modern-double-color-futuristic-neon-background-image_351866_1_1255x7001" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngtree-modern-double-color-futuristic-neon-background-image_351866_1_1255x7001.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="istockphoto-1226478926-170667a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\istockphoto-1226478926-170667a.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="f9e9a0f68ff7531459d5b1d0be9733be6924121b_1024_1024_1220x700" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\f9e9a0f68ff7531459d5b1d0be9733be6924121b_1024_1024_1220x700.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="v462-n-130-textureidea_1_1255x7002" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\v462-n-130-textureidea_1_1255x7002.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="a07e8f05a7d516ba7fd90519c5126058" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\a07e8f05a7d516ba7fd90519c5126058.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hand-painted-watercolor-background-with-sky-clouds-shape_24972-1095" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hand-painted-watercolor-background-with-sky-clouds-shape_24972-1095.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngtree-orange-gold-autumn-october-thanksgiving-feedback-background-image_267032_1255x700" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngtree-orange-gold-autumn-october-thanksgiving-feedback-background-image_267032_1255x700.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="background-executive-management-sml-min_1255x700" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\background-executive-management-sml-min_1255x700.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lights-background_1200x650" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lights-background_1200x650.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="photo-1469371670807-013ccf25f16a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\photo-1469371670807-013ccf25f16a.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="v462-n-130-textureidea_1_1255x700" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\v462-n-130-textureidea_1_1255x700.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="aed449f3fce390371328c489b93028a6_1255x700" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\aed449f3fce390371328c489b93028a6_1255x700.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="60327636-pastel-watercolor-background-digital-art-painting-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\60327636-pastel-watercolor-background-digital-art-painting-1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cec82d5465d42ae136e627b67dbeb068" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cec82d5465d42ae136e627b67dbeb068.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngtree-modern-double-color-futuristic-neon-background-image_351866_1_1255x700" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngtree-modern-double-color-futuristic-neon-background-image_351866_1_1255x700.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="istockphoto-918958976-612x612_1255x700" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\istockphoto-918958976-612x612_1255x700.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="photo-1523050854058-8df90110c9f1_1255x700" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\photo-1523050854058-8df90110c9f1_1255x700.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="79fce468980593.5b71946689a07" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\79fce468980593.5b71946689a07.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cyan-blue-rays-spiral-sunburst-background-comic-style_1150-39949_1255x700" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cyan-blue-rays-spiral-sunburst-background-comic-style_1150-39949_1255x700.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="download_85x50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download_85x50.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="35-351793_credit-or-debit-card-mastercard-logo-visa-card_1_85x50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\35-351793_credit-or-debit-card-mastercard-logo-visa-card_1_85x50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="istockphoto-1069160140-612x612_1255x700" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\istockphoto-1069160140-612x612_1255x700.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="photo-1617954096030-d8c4c47f2a99" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\photo-1617954096030-d8c4c47f2a99.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="candle-colorful-cream-happy-birthday-wallpaper-preview_1255x700" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\candle-colorful-cream-happy-birthday-wallpaper-preview_1255x700.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Events Management festival image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Events Management festival image.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="35-351793_credit-or-debit-card-mastercard-logo-visa-card_30x30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\35-351793_credit-or-debit-card-mastercard-logo-visa-card_30x30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="istockphoto-856607846-1024x1024_1255x700" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\istockphoto-856607846-1024x1024_1255x700.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ChicagoFireworks-070420-ColinBoyle-5724" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ChicagoFireworks-070420-ColinBoyle-5724.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3c086f40ad2cf620c3d540da7766b02b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3c086f40ad2cf620c3d540da7766b02b.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="v462-n-130-textureidea_1_1255x7003" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\v462-n-130-textureidea_1_1255x7003.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="depositphotos_73441387-stock-photo-black-blank-blackboard-with-hand_1255x700" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\depositphotos_73441387-stock-photo-black-blank-blackboard-with-hand_1255x700.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="af8d63a477078732b79ff9d9fc60873f_1255x700" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\af8d63a477078732b79ff9d9fc60873f_1255x700.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="60327636-pastel-watercolor-background-digital-art-painting-" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\60327636-pastel-watercolor-background-digital-art-painting-.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="v462-n-130-textureidea_1_1255x7005" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\v462-n-130-textureidea_1_1255x7005.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
